@@ -7,6 +7,8 @@
 
 import UIKit
 import CoreData
+import Firebase
+import Passbase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UITextField.appearance().keyboardAppearance = UIKeyboardAppearance.dark
+        FirebaseApp.configure()
+        PassbaseSDK.initialize(publishableApiKey: "rOmPU3Yrm3sO2arQo2Fj44kzrvCIENf8sIMTxlNwb7GWeSvRibukScjnpjycLGWU")
         return true
     }
 
@@ -77,5 +82,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+}
+
+// MARK: - Phone Authentication
+
+func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    
 }
 

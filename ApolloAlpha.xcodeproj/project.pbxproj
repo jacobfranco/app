@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D01A628280F026600ABA89B /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D01A627280F026600ABA89B /* Countries.swift */; };
+		2D01A62B280F034200ABA89B /* CustomNumberKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D01A62A280F034200ABA89B /* CustomNumberKeyboard.swift */; };
+		2D01A62E280F06A500ABA89B /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D01A62D280F06A500ABA89B /* Welcome.swift */; };
+		2D01A631280F074900ABA89B /* PhoneSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D01A630280F074900ABA89B /* PhoneSignup.swift */; };
+		2D01A634280F083900ABA89B /* PhoneSignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D01A633280F083900ABA89B /* PhoneSignupModel.swift */; };
+		2D01A637280F08B500ABA89B /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D01A636280F08B500ABA89B /* Verification.swift */; };
+		2D01A65D280F14D600ABA89B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D01A65C280F14D600ABA89B /* GoogleService-Info.plist */; };
+		2D01A672280F21BD00ABA89B /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D01A671280F21BD00ABA89B /* AlertView.swift */; };
+		2D076368283400C500FFD95A /* PaymentSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D076367283400C500FFD95A /* PaymentSignup.swift */; };
+		2D08C5CB2829DF4600231068 /* ProfileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D08C5CA2829DF4600231068 /* ProfileDetails.swift */; };
+		2D08C5CD2829E8E700231068 /* PBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D08C5CC2829E8E700231068 /* PBViewController.swift */; };
+		2D08C5CF2829EA4300231068 /* PassBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D08C5CE2829EA4300231068 /* PassBaseView.swift */; };
 		2D111B2F280F004000D3BC65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D111B2E280F004000D3BC65 /* AppDelegate.swift */; };
 		2D111B31280F004000D3BC65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D111B30280F004000D3BC65 /* SceneDelegate.swift */; };
 		2D111B33280F004000D3BC65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D111B32280F004000D3BC65 /* ContentView.swift */; };
@@ -14,9 +26,42 @@
 		2D111B38280F004B00D3BC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D111B37280F004B00D3BC65 /* Assets.xcassets */; };
 		2D111B3B280F004B00D3BC65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D111B3A280F004B00D3BC65 /* Preview Assets.xcassets */; };
 		2D111B3E280F004B00D3BC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D111B3C280F004B00D3BC65 /* LaunchScreen.storyboard */; };
+		2D4441E5282C05BD00ED8B0A /* URWDIN-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D4441E3282C05BC00ED8B0A /* URWDIN-Thin.ttf */; };
+		2D4441E6282C05BD00ED8B0A /* URWDIN-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D4441E4282C05BD00ED8B0A /* URWDIN-Light.ttf */; };
+		2D5ECD172833D31D0026A370 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ECD162833D31C0026A370 /* ImagePicker.swift */; };
+		2DEFC21F2818388400183E5C /* AgeVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFC21E2818388400183E5C /* AgeVerification.swift */; };
+		2DFEC4F0280F379600342CD9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFEC4EF280F379600342CD9 /* Home.swift */; };
+		3758D577ADF825CEC0F8DB2F /* Pods_ApolloAlpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713EF925A8C04F35CD0BF1A5 /* Pods_ApolloAlpha.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2DFFD23F282C0A87000A596E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		03FCECF2D37C811D932E796D /* Pods-ApolloAlpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloAlpha.release.xcconfig"; path = "Target Support Files/Pods-ApolloAlpha/Pods-ApolloAlpha.release.xcconfig"; sourceTree = "<group>"; };
+		0B5FBA3D139453332DA90D38 /* Pods-ApolloAlpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApolloAlpha.debug.xcconfig"; path = "Target Support Files/Pods-ApolloAlpha/Pods-ApolloAlpha.debug.xcconfig"; sourceTree = "<group>"; };
+		2D01A627280F026600ABA89B /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		2D01A62A280F034200ABA89B /* CustomNumberKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNumberKeyboard.swift; sourceTree = "<group>"; };
+		2D01A62D280F06A500ABA89B /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		2D01A630280F074900ABA89B /* PhoneSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSignup.swift; sourceTree = "<group>"; };
+		2D01A633280F083900ABA89B /* PhoneSignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneSignupModel.swift; sourceTree = "<group>"; };
+		2D01A636280F08B500ABA89B /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		2D01A65C280F14D600ABA89B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2D01A671280F21BD00ABA89B /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		2D076367283400C500FFD95A /* PaymentSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSignup.swift; sourceTree = "<group>"; };
+		2D08C5CA2829DF4600231068 /* ProfileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetails.swift; sourceTree = "<group>"; };
+		2D08C5CC2829E8E700231068 /* PBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBViewController.swift; sourceTree = "<group>"; };
+		2D08C5CE2829EA4300231068 /* PassBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassBaseView.swift; sourceTree = "<group>"; };
 		2D111B2B280F004000D3BC65 /* ApolloAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApolloAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D111B2E280F004000D3BC65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D111B30280F004000D3BC65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +71,12 @@
 		2D111B3A280F004B00D3BC65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D111B3D280F004B00D3BC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D111B3F280F004B00D3BC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4441E3282C05BC00ED8B0A /* URWDIN-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "URWDIN-Thin.ttf"; sourceTree = "<group>"; };
+		2D4441E4282C05BD00ED8B0A /* URWDIN-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "URWDIN-Light.ttf"; sourceTree = "<group>"; };
+		2D5ECD162833D31C0026A370 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = "ApolloAlpha/Signup Flow/ImagePicker.swift"; sourceTree = SOURCE_ROOT; };
+		2DEFC21E2818388400183E5C /* AgeVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeVerification.swift; sourceTree = "<group>"; };
+		2DFEC4EF280F379600342CD9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		713EF925A8C04F35CD0BF1A5 /* Pods_ApolloAlpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApolloAlpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +84,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3758D577ADF825CEC0F8DB2F /* Pods_ApolloAlpha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D08C5C82829DE3000231068 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2D5ECD162833D31C0026A370 /* ImagePicker.swift */,
+				2D01A627280F026600ABA89B /* Countries.swift */,
+				2D01A62A280F034200ABA89B /* CustomNumberKeyboard.swift */,
+				2D01A671280F21BD00ABA89B /* AlertView.swift */,
+				2D01A633280F083900ABA89B /* PhoneSignupModel.swift */,
+				2D08C5CC2829E8E700231068 /* PBViewController.swift */,
+				2D08C5CE2829EA4300231068 /* PassBaseView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2D08C5C92829DE6B00231068 /* Signup Flow */ = {
+			isa = PBXGroup;
+			children = (
+				2D01A62D280F06A500ABA89B /* Welcome.swift */,
+				2DEFC21E2818388400183E5C /* AgeVerification.swift */,
+				2D08C5CA2829DF4600231068 /* ProfileDetails.swift */,
+				2D076367283400C500FFD95A /* PaymentSignup.swift */,
+				2D01A630280F074900ABA89B /* PhoneSignup.swift */,
+				2D01A636280F08B500ABA89B /* Verification.swift */,
+			);
+			path = "Signup Flow";
+			sourceTree = "<group>";
+		};
 		2D111B22280F004000D3BC65 = {
 			isa = PBXGroup;
 			children = (
 				2D111B2D280F004000D3BC65 /* ApolloAlpha */,
 				2D111B2C280F004000D3BC65 /* Products */,
+				964D6338B7510A368B37B65E /* Pods */,
+				9FCB46A118B3E085AAFAEF0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +142,15 @@
 				2D111B2E280F004000D3BC65 /* AppDelegate.swift */,
 				2D111B30280F004000D3BC65 /* SceneDelegate.swift */,
 				2D111B32280F004000D3BC65 /* ContentView.swift */,
-				2D111B37280F004B00D3BC65 /* Assets.xcassets */,
+				2D08C5C92829DE6B00231068 /* Signup Flow */,
+				2D08C5C82829DE3000231068 /* Helpers */,
+				2DD39AE6282B67DA00B82394 /* Main Screens */,
 				2D111B3C280F004B00D3BC65 /* LaunchScreen.storyboard */,
 				2D111B3F280F004B00D3BC65 /* Info.plist */,
+				2D01A65C280F14D600ABA89B /* GoogleService-Info.plist */,
 				2D111B34280F004000D3BC65 /* ApolloAlpha.xcdatamodeld */,
+				2D4441E2282C057E00ED8B0A /* fonts */,
+				2D111B37280F004B00D3BC65 /* Assets.xcassets */,
 				2D111B39280F004B00D3BC65 /* Preview Content */,
 			);
 			path = ApolloAlpha;
@@ -78,6 +164,40 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2D4441E2282C057E00ED8B0A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2D4441E4282C05BD00ED8B0A /* URWDIN-Light.ttf */,
+				2D4441E3282C05BC00ED8B0A /* URWDIN-Thin.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		2DD39AE6282B67DA00B82394 /* Main Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2DFEC4EF280F379600342CD9 /* Home.swift */,
+			);
+			path = "Main Screens";
+			sourceTree = "<group>";
+		};
+		964D6338B7510A368B37B65E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B5FBA3D139453332DA90D38 /* Pods-ApolloAlpha.debug.xcconfig */,
+				03FCECF2D37C811D932E796D /* Pods-ApolloAlpha.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9FCB46A118B3E085AAFAEF0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				713EF925A8C04F35CD0BF1A5 /* Pods_ApolloAlpha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +205,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D111B42280F004B00D3BC65 /* Build configuration list for PBXNativeTarget "ApolloAlpha" */;
 			buildPhases = (
+				E59C9E49FE3B676BCB5E173B /* [CP] Check Pods Manifest.lock */,
 				2D111B27280F004000D3BC65 /* Sources */,
 				2D111B28280F004000D3BC65 /* Frameworks */,
 				2D111B29280F004000D3BC65 /* Resources */,
+				0656D6C27D8A7F3E8408B2CD /* [CP] Embed Pods Frameworks */,
+				F68AE5242B0DD67380A680BA /* [CP] Copy Pods Resources */,
+				2DFFD23F282C0A87000A596E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -104,7 +228,7 @@
 		2D111B23280F004000D3BC65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					2D111B2A280F004000D3BC65 = {
@@ -135,23 +259,99 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4441E6282C05BD00ED8B0A /* URWDIN-Light.ttf in Resources */,
 				2D111B3E280F004B00D3BC65 /* LaunchScreen.storyboard in Resources */,
 				2D111B3B280F004B00D3BC65 /* Preview Assets.xcassets in Resources */,
+				2D4441E5282C05BD00ED8B0A /* URWDIN-Thin.ttf in Resources */,
 				2D111B38280F004B00D3BC65 /* Assets.xcassets in Resources */,
+				2D01A65D280F14D600ABA89B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0656D6C27D8A7F3E8408B2CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApolloAlpha/Pods-ApolloAlpha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApolloAlpha/Pods-ApolloAlpha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ApolloAlpha/Pods-ApolloAlpha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59C9E49FE3B676BCB5E173B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApolloAlpha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F68AE5242B0DD67380A680BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApolloAlpha/Pods-ApolloAlpha-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ApolloAlpha/Pods-ApolloAlpha-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ApolloAlpha/Pods-ApolloAlpha-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D111B27280F004000D3BC65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D08C5CB2829DF4600231068 /* ProfileDetails.swift in Sources */,
+				2D01A637280F08B500ABA89B /* Verification.swift in Sources */,
+				2D076368283400C500FFD95A /* PaymentSignup.swift in Sources */,
 				2D111B2F280F004000D3BC65 /* AppDelegate.swift in Sources */,
+				2D5ECD172833D31D0026A370 /* ImagePicker.swift in Sources */,
 				2D111B36280F004000D3BC65 /* ApolloAlpha.xcdatamodeld in Sources */,
+				2D01A672280F21BD00ABA89B /* AlertView.swift in Sources */,
 				2D111B31280F004000D3BC65 /* SceneDelegate.swift in Sources */,
+				2D01A634280F083900ABA89B /* PhoneSignupModel.swift in Sources */,
+				2D08C5CD2829E8E700231068 /* PBViewController.swift in Sources */,
+				2D01A628280F026600ABA89B /* Countries.swift in Sources */,
+				2D01A631280F074900ABA89B /* PhoneSignup.swift in Sources */,
+				2D08C5CF2829EA4300231068 /* PassBaseView.swift in Sources */,
+				2D01A62B280F034200ABA89B /* CustomNumberKeyboard.swift in Sources */,
 				2D111B33280F004000D3BC65 /* ContentView.swift in Sources */,
+				2DFEC4F0280F379600342CD9 /* Home.swift in Sources */,
+				2D01A62E280F06A500ABA89B /* Welcome.swift in Sources */,
+				2DEFC21F2818388400183E5C /* AgeVerification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +487,7 @@
 		};
 		2D111B43280F004B00D3BC65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B5FBA3D139453332DA90D38 /* Pods-ApolloAlpha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +495,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ApolloAlpha/Preview Content\"";
 				DEVELOPMENT_TEAM = Q4DTTM7PT7;
 				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = ApolloAlpha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +510,7 @@
 		};
 		2D111B44280F004B00D3BC65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FCECF2D37C811D932E796D /* Pods-ApolloAlpha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +518,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ApolloAlpha/Preview Content\"";
 				DEVELOPMENT_TEAM = Q4DTTM7PT7;
 				ENABLE_PREVIEWS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = ApolloAlpha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

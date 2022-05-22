@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("log_status") var status = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color("BackgroundColor")
+                .ignoresSafeArea()
+            if status {
+                Home()
+            } else {
+                NavigationView {
+                    Welcome()
+                        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+                        .navigationBarHidden(true)
+                        .navigationBarBackButtonHidden(true)
+                }
+            }
+        }
     }
 }
 
