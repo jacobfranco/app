@@ -3,7 +3,7 @@ Prototype for Apollo
 
 Intellectual Property of Jacob Franco and Blake Tolley
 
-This repository is considered private except for if you are hiring Jacob for a software development role.  
+This repository is considered private except for if you are a recruiter linked here from a job application.
 
 ---
 
